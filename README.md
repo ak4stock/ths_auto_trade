@@ -16,6 +16,9 @@ pip install -r requirements
 
 4.需要发送通知 请配置自己的钉钉 dd_token 
 
+python run.py 启动程序
+
+python test.py 测试买卖下单查询等等
 
 如果出现验证码 还需要安装OCR 参考easytrader文档 
 
