@@ -66,12 +66,12 @@ def test6(d):
 if __name__ == "__main__":
     
     d = {
-        "token":"token",
-        "code":"603969",
-        "amount":"100",
-        "price":"5.10",
-        "is_market":0
-    }
+        "token":"token", # 校验token
+        "code":"000000", # 自己修改股票代码
+        "amount":"100",  # 数量
+        "price":"11.11", # 价格
+        "is_market":0    # 市价单 还是 限价单
+    } 
     '''
     test5(d)
     test6(d)
@@ -80,4 +80,4 @@ if __name__ == "__main__":
     test3()
     test4()
     '''
-    test5(d)
+    test1()
