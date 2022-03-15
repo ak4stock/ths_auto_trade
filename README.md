@@ -2,6 +2,8 @@
 
 股票A股同花顺trade通达信指标程序化交易自动交易量化交易
 
+免责声明： 程序仅供学习交流，仅用于模拟交易测试，如果用于实盘交易，风险自担，请知晓程序可能存在不可预知的风险。
+
 0.学习交流讨论 + 威信： gupiao888nb
 
 ![Image text](https://raw.githubusercontent.com/ak4stock/ths_tdx_stock_xueqiu_guoren/main/contact.png)  
