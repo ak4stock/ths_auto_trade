@@ -26,6 +26,11 @@ python test.py 测试买卖下单查询等等
 
 https://easytrader.readthedocs.io/zh/master/#_4
 
-可以部署在自己的服务器上，通过HTTP协议发送订单数据下单。
+可以部署在自己的服务器上，通过HTTP协议接口发送订单数据下单。
+
+
+![Image text](https://raw.githubusercontent.com/ak4stock/ths_auto_trade/main/run.png)  
+
+![Image text](https://raw.githubusercontent.com/ak4stock/ths_auto_trade/main/test.png)  
 
 
