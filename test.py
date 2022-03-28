@@ -12,6 +12,9 @@ level2数据
 level2接口
 LEVEL2数据
 LEVEL2接口
+
+涨停龙头战法
+
 '''
 
 BASE_URL = "http://127.0.0.1:801/"
