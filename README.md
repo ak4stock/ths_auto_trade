@@ -38,3 +38,18 @@ https://easytrader.readthedocs.io/zh/master/#_4
 ![Image text](https://raw.githubusercontent.com/ak4stock/ths_auto_trade/main/test.png)  
 
 
+
+天保基建 
+
+盘龙药业
+
+启明信息
+
+九安医疗
+
+陕西金叶
+
+湖北广电
+
+翠微股份
+ 
