@@ -25,6 +25,7 @@ token = 'token'
 dd_token = 'key'
 
 
+
 logger.info(client_path  + " 准备连接")
 user = easytrader.use('universal_client')
 user.connect(client_path)  # 类似 r'C:\htzqzyb2\xiadan.exe'
