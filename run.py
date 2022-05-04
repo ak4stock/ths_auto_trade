@@ -23,7 +23,7 @@ ip = " "
 token = 'token'
 dd_token = 'key'
 
- 
+  
 
 logger.info(client_path  + " 准备连接")
 user = easytrader.use('universal_client')
