@@ -26,6 +26,9 @@ python test.py 测试买卖下单查询等等
 
 如果出现验证码 还需要安装OCR 参考easytrader文档 
 
+tesseract 安装及使用
+https://blog.csdn.net/showgea/article/details/82656515
+
 感谢easytrader
 
 https://easytrader.readthedocs.io/zh/master/#_4
