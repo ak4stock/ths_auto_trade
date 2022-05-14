@@ -18,7 +18,7 @@ app.config['JSON_AS_ASCII'] = False
 
 #交流讨论+威信: gupiao888nb
 client_path = 'C:/ths/xiadan.exe'
- 
+  
 ip = " "
 token = 'token'
 dd_token = 'key'
