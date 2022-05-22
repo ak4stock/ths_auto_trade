@@ -22,7 +22,7 @@ client_path = 'C:/ths/xiadan.exe'
 ip = " "
 token = 'token'
 dd_token = 'key'
-
+ 
   
 
 logger.info(client_path  + " 准备连接")
