@@ -2,5 +2,5 @@
 flask
 loguru
 easytrader
-pywinauto
+pywinauto==0.6.6
 pywin32
