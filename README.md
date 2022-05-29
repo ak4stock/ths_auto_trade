@@ -12,7 +12,7 @@
 
 
 1.先安装依赖 
-pip install -r requirements
+pip install -r requirements.txt
 
 2.然后修改 run.py 里面的 client_path = 'C:/ths/xiadan.exe'
 
