@@ -16,7 +16,7 @@ logger.add('./logs/api_{time}.log', rotation='00:00', encoding='utf-8')
 app = Flask(__name__)
 app.config['JSON_AS_ASCII'] = False
 
-#交流讨论+威信: gupiao888nb
+#交流讨论+威信: gupiao888nb 
 client_path = 'C:/ths/xiadan.exe'
   
 ip = " "
