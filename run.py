@@ -7,7 +7,7 @@ import requests
 import json
 from loguru import logger
 import easytrader
-from easytrader import refresh_strategies
+from easytrader import refresh_strategies 
 from easytrader import grid_strategies
      
   
