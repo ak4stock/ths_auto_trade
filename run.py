@@ -8,7 +8,7 @@ import json
 from loguru import logger
 import easytrader
 from easytrader import refresh_strategies 
-from easytrader import grid_strategies 
+from easytrader import grid_strategies  
      
    
 logger.add('./logs/api_{time}.log', rotation='00:00', encoding='utf-8') 
