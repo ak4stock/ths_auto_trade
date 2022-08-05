@@ -11,6 +11,15 @@
 ![Image text](https://raw.githubusercontent.com/ak4stock/ths_tdx_stock_xueqiu_guoren/main/contact.png)  
 
 
+2022.08.05更新
+注意： 无法输入验证码的问题
+
+更新最新的easytrader
+更新最新的同花顺官方客户端
+找到python的.\Lib\site-packages\easytrader目录
+用项目的grid_strategies.py替换目录下的即可
+
+
 1.先安装依赖 
 pip install -r requirements.txt
 
