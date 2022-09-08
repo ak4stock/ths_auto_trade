@@ -11,6 +11,16 @@
 ![Image text](https://raw.githubusercontent.com/ak4stock/ths_tdx_stock_xueqiu_guoren/main/contact.png)  
 
 
+2022.09.09更新
+
+
+更换新的验证码识别方式
+
+
+已经部署测试服务器，需要测试的VX联系，一天仅限一人测试。
+
+
+
 2022.08.05更新
 
 注意： 无法输入验证码的问题
