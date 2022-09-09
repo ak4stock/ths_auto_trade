@@ -11,10 +11,6 @@
 ![Image text](https://raw.githubusercontent.com/ak4stock/ths_tdx_stock_xueqiu_guoren/main/contact.png)  
 
 
-如果对你有所帮助，赏杯咖啡
-
-![Image text](https://raw.githubusercontent.com/ak4stock/ths_auto_trade/main/code.jpg)
-
 
 
 2022.09.09更新
@@ -76,6 +72,12 @@ https://easytrader.readthedocs.io/zh/master/#_4
 ![Image text](https://raw.githubusercontent.com/ak4stock/ths_auto_trade/main/run.png)  
 
 ![Image text](https://raw.githubusercontent.com/ak4stock/ths_auto_trade/main/test.png)  
+
+
+
+如果对你有所帮助，赏杯咖啡
+
+![Image text](https://raw.githubusercontent.com/ak4stock/ths_auto_trade/main/code.jpg)
 
 
 
