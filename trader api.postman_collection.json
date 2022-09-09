@@ -1,0 +1,183 @@
+{
+	"info": {
+		"_postman_id": "1",
+		"name": "trader api",
+		"schema": "1",
+		"_exporter_id": "1"
+	},
+	"item": [
+		{
+			"name": "account",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}api/balance?token={{TOKEN}}",
+					"host": [
+						"{{BASE_URL}}api"
+					],
+					"path": [
+						"balance"
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "{{TOKEN}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "position",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}api/position?token={{TOKEN}}",
+					"host": [
+						"{{BASE_URL}}api"
+					],
+					"path": [
+						"position"
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "{{TOKEN}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "todayOrders",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}api/orders/today?token={{TOKEN}}",
+					"host": [
+						"{{BASE_URL}}api"
+					],
+					"path": [
+						"orders",
+						"today"
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "{{TOKEN}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "filledOrders",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}api/orders/filled?token={{TOKEN}}",
+					"host": [
+						"{{BASE_URL}}api"
+					],
+					"path": [
+						"orders",
+						"filled"
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "{{TOKEN}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "sellOrder",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"token\":\"\",\r\n    \"code\":\"000001\", \r\n    \"amount\":\"100\", \r\n    \"price\":\"11.22\",\r\n    \"is_market\":0   \r\n} ",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{BASE_URL}}api/sell",
+					"host": [
+						"{{BASE_URL}}api"
+					],
+					"path": [
+						"sell"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "buyOrder",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"token\":\"\",\r\n    \"code\":\"000001\", \r\n    \"amount\":\"100\", \r\n    \"price\":\"11.22\",\r\n    \"is_market\":0   \r\n} ",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{BASE_URL}}api/buy",
+					"host": [
+						"{{BASE_URL}}api"
+					],
+					"path": [
+						"buy"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "cancelOrder",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}api/cancel?token={{TOKEN}}&entrust_no=3042116611",
+					"host": [
+						"{{BASE_URL}}api"
+					],
+					"path": [
+						"cancel"
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "{{TOKEN}}"
+						},
+						{
+							"key": "entrust_no",
+							"value": "3042116611"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
