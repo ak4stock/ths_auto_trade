@@ -11,6 +11,12 @@
 ![Image text](https://raw.githubusercontent.com/ak4stock/ths_tdx_stock_xueqiu_guoren/main/contact.png)  
 
 
+如果对你有所帮助，赏杯咖啡
+
+![Image text](https://raw.githubusercontent.com/ak4stock/ths_auto_trade/main/code.jpg)
+
+
+
 2022.09.09更新
 
 增加接口文档 
@@ -73,17 +79,3 @@ https://easytrader.readthedocs.io/zh/master/#_4
 
 
 
-天保基建 
-
-盘龙药业
-
-启明信息
-
-九安医疗
-
-陕西金叶
-
-湖北广电
-
-翠微股份
- 
