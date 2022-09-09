@@ -6,12 +6,18 @@
 
 如果用于实盘交易，风险自担，请知晓程序可能存在不可预知的风险。
 
-0.学习交流讨论 加群 威信： gupiao888nb
+0.学习交流讨论 加群 威信： gupiao888nb 
 
 ![Image text](https://raw.githubusercontent.com/ak4stock/ths_tdx_stock_xueqiu_guoren/main/contact.png)  
 
 
 2022.09.09更新
+
+增加接口文档 
+
+增加POSTMAN接口导入文件 
+
+需配置变量 {{BASE_URL}} 和 {{TOKEN}}再使用
 
 
 更换新的验证码识别方式
