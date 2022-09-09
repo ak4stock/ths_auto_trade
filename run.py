@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 from flask import Flask, request, jsonify
 import functools
 import time
@@ -96,26 +98,29 @@ def parse_webhook(webhook_data):
 # Create root to easily let us know its on/working.
 @app.route('/')
 def root():
-    return 'hello world!'
+    return 'trade api'
 
-
+#账户资金信息
 @app.route('/api/balance', methods=['GET'])
 @interval_call
 def get_balance():
     req_token = request.args['token']
     if token == req_token:
-        result = user.balance
+        data = user.balance
+        result = {'code': 0, 'status': 'success', 'msg': 'ok', 'data': data} 
     else:
         result = {'code': 1, 'status': 'failed', 'msg': 'token is error'}
     return jsonify(result), 200
 
 
+#账户持仓信息
 @app.route('/api/position', methods=['GET'])
 @interval_call
 def get_position():
     req_token = request.args['token']
     if token == req_token:
-        result = user.position
+        data = user.position
+        result = {'code': 0, 'status': 'success', 'msg': 'ok', 'data': data} 
     else:
         result = {'code': 1, 'status': 'failed', 'msg': 'token is error'}
     return jsonify(result), 200
@@ -127,7 +132,8 @@ def get_position():
 def get_today_ok_orders():
     req_token = request.args['token']
     if token == req_token:
-        result = user.today_trades
+        data = user.today_trades
+        result = {'code': 0, 'status': 'success', 'msg': 'ok', 'data': data} 
     else:
         result = {'code': 1, 'status': 'failed', 'msg': 'token is error'}
     return jsonify(result), 200
@@ -139,7 +145,8 @@ def get_today_ok_orders():
 def get_filled_orders():
     req_token = request.args['token']
     if token == req_token:
-        result = user.today_entrusts
+        data = user.today_entrusts
+        result = {'code': 0, 'status': 'success', 'msg': 'ok', 'data': data} 
     else:
         result = {'code': 1, 'status': 'failed', 'msg': 'token is error'}
     return jsonify(result), 200
@@ -157,10 +164,12 @@ def sell():
         amount = data['amount']
         price = data['price']
         is_market = data['is_market']
+        data = None
         if is_market:
-            result = user.market_sell(stock,amount=int(amount))
+            data = user.market_sell(stock,amount=int(amount))
         else:
-            result = user.sell(stock, price=price, amount=int(amount))
+            data = user.sell(stock, price=price, amount=int(amount))
+        result = {'code': 0, 'status': 'success', 'msg': 'ok', 'data': data}     
     else:
         result = {'code': 1, 'status': 'failed', 'msg': 'token is error'}
     return jsonify(result), 200
@@ -178,10 +187,12 @@ def buy():
         amount = data['amount']
         price = data['price']
         is_market = data['is_market']
+        data = None
         if is_market:
-            result = user.market_buy(stock,amount=int(amount))
+            data = user.market_buy(stock,amount=int(amount))
         else:
-            result = user.buy(stock, price=price, amount=int(amount))
+            data = user.buy(stock, price=price, amount=int(amount))
+        result = {'code': 0, 'status': 'success', 'msg': 'ok', 'data': data}    
     else:
         result = {'code': 1, 'status': 'failed', 'msg': 'token is error'}
     return jsonify(result), 200
@@ -195,7 +206,9 @@ def cancel():
     entrust_no = request.args['entrust_no']
     req_token = request.args['token']
     if token == req_token:
-        result = user.cancel_entrust(entrust_no)
+        logger.info(entrust_no)
+        data = user.cancel_entrust(entrust_no)
+        result = {'code': 0, 'status': 'success', 'msg': 'ok', 'data': data}
     else:
         result = {'code': 1, 'status': 'failed', 'msg': 'token is error'}
     return jsonify(result), 200
