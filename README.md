@@ -53,6 +53,8 @@ pip install -r requirements.txt
 
 4.需要发送通知 请配置自己的钉钉 dd_token 
 
+*********** 请先启动同花顺软件，然后打开同花顺的委托程序
+
 python run.py 启动程序
 
 python test.py 测试买卖下单查询等等
