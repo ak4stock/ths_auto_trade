@@ -81,5 +81,7 @@ https://easytrader.readthedocs.io/zh/master/#_4
 
 ![Image text](https://raw.githubusercontent.com/ak4stock/ths_auto_trade/main/code.jpg)
 
+万一免五开户
 
+![Image text](https://raw.githubusercontent.com/ak4stock/ths_auto_trade/main/万一免五开户.png)
 
