@@ -11,6 +11,15 @@
 ![Image text](https://raw.githubusercontent.com/ak4stock/ths_tdx_stock_xueqiu_guoren/main/contact.png)  
 
 
+2022.11.25更新
+
+部分控件无法操作的
+
+可以尝试替换pywin32依赖的版本
+
+版本如下
+
+227,228,300,301,302,303,304,305
 
 
 2022.09.09更新
