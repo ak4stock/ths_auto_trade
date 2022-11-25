@@ -1,5 +1,5 @@
-﻿requests
-flask
-loguru
-easytrader
-pywin32==301
+requests==2.28.1
+flask==2.2.2
+loguru==0.6.0
+easytrader==0.23.0
+pywin32==305
