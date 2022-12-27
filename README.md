@@ -8,6 +8,8 @@
 
 0.学习交流讨论 加群 威信： gupiao888nb 
 
+万1免5 万一免五 开户
+
 ![Image text](https://raw.githubusercontent.com/ak4stock/ths_tdx_stock_xueqiu_guoren/main/contact.png)  
 
 
