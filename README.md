@@ -13,6 +13,9 @@
 ![Image text](https://raw.githubusercontent.com/ak4stock/ths_tdx_stock_xueqiu_guoren/main/contact.png)  
 
 
+2023 新年一路发。
+
+
 2022.11.25更新
 
 部分控件无法操作的
