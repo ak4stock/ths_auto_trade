@@ -1,7 +1,7 @@
 import requests
 import json
 
-# A股打板level2接口lev2数据股票量化交易程序化交易通达信指标交易同花顺自动交易  
+# A股打板level2接口lev2数据股票量化交易程序化交易通达信指标交易同花顺自动交易   
 
 '''
 lev2数据
