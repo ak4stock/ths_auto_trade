@@ -34,7 +34,7 @@ logger.info(client_path  + " 连接成功")
 user.refresh_strategy = refresh_strategies.Toolbar(refresh_btn_index=4)
 user.grid_strategy = grid_strategies.WMCopy
 #user.grid_strategy_instance.tmp_folder = 'D:\\12345'
-user.enable_type_keys_for_editor()
+#user.enable_type_keys_for_editor() #如遇到无法输入验证码，请打开此行注释。
 
 
 
