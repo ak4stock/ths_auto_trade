@@ -93,7 +93,13 @@ run.py文件
 
 
 #user.enable_type_keys_for_editor() #如遇到无法输入验证码，请打开此行注释。     
-
+    
+        
+            
+                
+                    
+                        
+                        
 
 
 
@@ -111,7 +117,12 @@ run.py文件
 
 已经部署测试服务器，需要测试的VX联系，一天仅限一人测试。
 
-
+    
+        
+            
+                
+                    
+                    
 
 2022.08.05更新
 
@@ -151,14 +162,21 @@ https://blog.csdn.net/showgea/article/details/82656515
 感谢easytrader
 
 https://easytrader.readthedocs.io/zh/master/#_4
-
+    
+        
+            
+                
+                
 可以部署在自己的服务器上，通过HTTP协议接口发送订单数据下单。
 
 
 ![Image text](https://raw.githubusercontent.com/ak4stock/ths_auto_trade/main/run.png)  
 
 ![Image text](https://raw.githubusercontent.com/ak4stock/ths_auto_trade/main/test.png)  
-
+    
+        
+            
+            
 
 
 如果对你有所帮助，赏杯咖啡
