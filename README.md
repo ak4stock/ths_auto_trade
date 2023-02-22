@@ -85,24 +85,15 @@
 
 2023 新年一路发。
 
-
+<br />
+<br />
 2023.2.22更新   
-
-
 run.py文件    
-
-
 #user.enable_type_keys_for_editor() #如遇到无法输入验证码，请打开此行注释。     
     
-        
-            
-                
-                    
-                        
-                        
-
-
-
+ 
+<br />
+<br />
 2022.09.09更新
 
 增加接口文档 
@@ -117,13 +108,10 @@ run.py文件
 
 已经部署测试服务器，需要测试的VX联系，一天仅限一人测试。
 
-    
-        
-            
-                
+              
                     
-                    
-
+<br />
+<br />
 2022.08.05更新
 
 注意： 无法输入验证码的问题
@@ -138,6 +126,9 @@ run.py文件
 用项目的grid_strategies.py替换目录下的即可
 
 
+<br />
+<br />
+<br />
 
 1.先安装依赖 
 pip install -r requirements.txt
@@ -166,7 +157,8 @@ https://easytrader.readthedocs.io/zh/master/#_4
         
             
                 
-                
+ <br />
+ <br />
 可以部署在自己的服务器上，通过HTTP协议接口发送订单数据下单。
 
 
@@ -178,12 +170,13 @@ https://easytrader.readthedocs.io/zh/master/#_4
             
             
 
-
+<br />
+<br />
 如果对你有所帮助，赏杯咖啡
 
 ![Image text](https://raw.githubusercontent.com/ak4stock/ths_auto_trade/main/code.jpg)
 
 万一免五开户
 
-![Image text](https://raw.githubusercontent.com/ak4stock/ths_auto_trade/main/%E4%B8%87%E4%B8%80%E5%85%8D%E4%BA%94%E5%BC%80%E6%88%B7.PNG)
+![Image text](https://raw.githubusercontent.com/ak4stock/ths_auto_trade/main/%E4%B8%87%E4%B8%80%E5%85%8D%E4%BA%94%E5%BC%80%E6%88%B7.png)
 
