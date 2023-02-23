@@ -34,7 +34,7 @@ logger.info(client_path  + " 连接成功")
 user.refresh_strategy = refresh_strategies.Toolbar(refresh_btn_index=4)
 user.grid_strategy = grid_strategies.WMCopy
 #user.grid_strategy_instance.tmp_folder = 'D:\\12345'
-#user.enable_type_keys_for_editor() #如遇到无法输入验证码，请打开此行注释。
+user.enable_type_keys_for_editor() #如遇到无法输入验证码，请注释此行。
 
 
 
@@ -215,4 +215,10 @@ def cancel():
 
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=801)
+    # gevent 
+    from gevent import monkey 
+    from gevent.pywsgi import WSGIServer 
+    monkey.patch_all() 
+    # gevent end 
+    http_server = WSGIServer(('0.0.0.0', int(801)), app) 
+    http_server.serve_forever()
