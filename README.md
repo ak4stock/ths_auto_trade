@@ -89,7 +89,7 @@
 <br />
 2023.2.22更新   
 run.py文件    
-#user.enable_type_keys_for_editor() #如遇到无法输入验证码，请打开此行注释。     
+user.enable_type_keys_for_editor() #如遇到无法输入验证码，请注释此行。     
     
  
 <br />
