@@ -67,7 +67,7 @@ def to_msg(text):
 
 lock = threading.Lock()
 next_time = 0
-interval = 3  #3秒一次
+interval = 5  #5秒一次
 
 def interval_call(func):
     @functools.wraps(func)
