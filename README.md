@@ -9,6 +9,26 @@
 
 0.学习交流讨论 威信： gupiao888nb 
 
+同花顺官方最新版本9.20.x不要用这个。      
+
+请使用9.10.30之前的版本，      
+
+
+旧版本下载地址，      
+
+本地下载一份备用，      
+
+https://www.32r.com/soft/53492.html      
+
+
+禁止同花顺自动升级设置，      
+
+https://56data.cc/1924.html      
+      
+      
+
+
+
 万1免5 万一免五 开户
 
 ![Image text](https://raw.githubusercontent.com/ak4stock/ths_tdx_stock_xueqiu_guoren/main/contact.png)     
