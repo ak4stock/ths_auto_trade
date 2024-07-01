@@ -5,108 +5,46 @@
 免责声明： 程序仅供学习交流，请先用模拟账户进行测试，
 
 如果用于实盘交易，风险自担，请知晓程序可能存在不可预知的风险。
-\
-
-0.学习交流讨论 威信： gupiao888nb 
-
-同花顺官方最新版本9.20.x不要用这个。         
 
 
+学习交流讨论 
+
+威信： gupiao888nb 
 
 
-   蓝奏云上传了2个版本9.10.30和9.10.90提取版，仅独立交易委托客户端，无行情客户端
-        
-        
-   https://wwsj.lanzout.com/iPJ3a0wa2wbi?pwd=6666#6666    
-            
-   提取密码：    6666 
-                
-                  
-        
-      
+蓝奏云上传了2个版本9.10.30和9.10.90提取版，仅独立交易委托客户端，无行情客户端
 
 
+https://wwsj.lanzout.com/iPJ3a0wa2wbi?pwd=6666#6666    
 
-万1免5 万一免五 开户
+提取密码： 6666 
 
-![Image text](https://raw.githubusercontent.com/ak4stock/ths_tdx_stock_xueqiu_guoren/main/contact.png)     
+新增 最新版同花顺委托客户端 V9.30.40，仅独立交易委托客户端，无行情客户端
+
+下载:https://wwm.lanzout.com/isEF7239mb9c?pwd=6666#6666 
+提取密码: 6666
 
 
-
--------------------------------------------------------------
--------------------------------------------------------------
-
+*************************************************************   
 坐标：广州    
-
-
-  曾就职某投资咨询公司 （非野鸡公司，正规金融牌照）    
-  
-  曾就职前十大头部证券公司    
-  
-  
-  现在自由职业    
-  
-  
-  **万一免五开户**合作渠道    
-  
-  
-  
+曾就职某投资咨询公司 （非野鸡公司，正规金融牌照）    
+曾就职前十大头部证券公司    
+现在自由职业    
+**万一免五开户**合作渠道    
 *************************************************************    
 
 
-移除其它内容
-
-
-
-2023 新年一路发。
-
-<br />
-<br />
-2023.2.22更新   
-run.py文件    
-user.enable_type_keys_for_editor() #如遇到无法输入验证码，请注释此行。     
-    
- 
-<br />
-<br />
-2022.09.09更新
-
-增加接口文档 
-
-增加POSTMAN接口导入文件 
-
-需配置变量 {{BASE_URL}} 和 {{TOKEN}}再使用
-
-
-更换新的验证码识别方式
-
-
-已经部署测试服务器，需要测试的VX联系，一天仅限一人测试。
-
-              
-                    
-<br />
-<br />
-2022.08.05更新
-
-注意： 无法输入验证码的问题
-
-
-更新最新的easytrader
-
-更新最新的同花顺官方客户端
-
-找到python的.\Lib\site-packages\easytrader目录
-
-用项目的grid_strategies.py替换目录下的即可
-
-
-<br />
-<br />
-<br />
-
-1.先安装依赖 
+1.首先安装依赖 
 pip install -r requirements.txt
+
+项目里的easytrader.zip文件为修改版本
+
+直接找到python安装路径下的.\Lib\site-packages\easytrader目录
+
+修改为easytrader_bak
+
+然后将项目里的easytrader.zip解压进去使用即可
+
 
 2.然后修改 run.py 里面的 client_path = 'C:/ths/xiadan.exe'
 
@@ -120,16 +58,11 @@ python run.py 启动程序
 
 python test.py 测试买卖下单查询等等
 
-如果出现验证码 还需要安装OCR 参考easytrader文档 
-
-tesseract 安装及使用
-https://blog.csdn.net/showgea/article/details/82656515
-
-感谢easytrader
+最后，感谢easytrader
 
 https://easytrader.readthedocs.io/zh/master/#_4
     
-        
+*************************************************************            
             
                 
  <br />
