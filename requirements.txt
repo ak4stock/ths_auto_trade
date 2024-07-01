@@ -3,5 +3,7 @@ flask==2.2.2
 loguru==0.6.0
 easytrader==0.23.0
 pywin32==305
+pywinauto==0.6.6
+ddddocr==1.5.5
 gevent==22.10.2
  
