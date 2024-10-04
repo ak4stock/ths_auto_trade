@@ -31,6 +31,7 @@ https://wwsj.lanzout.com/iPJ3a0wa2wbi?pwd=6666#6666
 曾就职前十大头部证券公司    
 现在自由职业    
 **万一免五开户**合作渠道    
+牛市来临，超低佣开户咨询，万一免5  万1免5
 *************************************************************    
 
 
@@ -83,8 +84,4 @@ https://easytrader.readthedocs.io/zh/master/#_4
 如果对你有所帮助，赏杯咖啡
 
 ![Image text](https://raw.githubusercontent.com/ak4stock/ths_auto_trade/main/code.jpg)
-
-万一免五开户
-
-![Image text](https://raw.githubusercontent.com/ak4stock/ths_auto_trade/main/%E4%B8%87%E4%B8%80%E5%85%8D%E4%BA%94%E5%BC%80%E6%88%B7.png)
 
