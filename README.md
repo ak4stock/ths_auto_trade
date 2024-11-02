@@ -5,13 +5,17 @@
 
 https://www.bilibili.com/video/BV1P4DAYSEEZ/
 
-
-
+<br/>
+<br/>
+<br/>
 
 个人时间精力有限，改造对接安装部署，或者遇到问题，
 
 如需帮助付费服务===》》》 威信： gupiao888nb 
 
+<br/>
+<br/>
+<br/>
 
 
 股票A股同花顺trade通达信指标程序化交易自动交易量化交易 
@@ -21,7 +25,9 @@ https://www.bilibili.com/video/BV1P4DAYSEEZ/
 如果用于实盘交易，风险自担，请知晓程序可能存在不可预知的风险。
 
  
-
+<br/>
+<br/>
+<br/>
 
 
 
