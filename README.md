@@ -3,7 +3,28 @@
 
 演示视频  
 
-https://www.bilibili.com/video/BV1P4DAYSEEZ/
+
+
+<a href="https://www.bilibili.com/video/BV1P4DAYSEEZ/" target = _blank> B站演示视频 </a>
+
+
+<br/>
+<br/>
+<br/>
+
+
+<iframe  
+    width="100%"  
+    height="450"  
+    src="//player.bilibili.com/player.html?aid=113412856088007&cid=26580748524&page=1"  
+    scrolling="no"  
+    border="0"  
+    frameborder="no"  
+    framespacing="0"  
+    allowfullscreen="true"> 
+
+
+</iframe> 
 
 <br/>
 <br/>
