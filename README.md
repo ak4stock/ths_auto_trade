@@ -1,19 +1,9 @@
 # ths_auto_trade
 
 
-演示视频  
 
+演示视频 ===》》》   www.bilibili.com/video/BV1P4DAYSEEZ/
 
-复制新窗口打开   www.bilibili.com/video/BV1P4DAYSEEZ/
-
-
-<br/>
-<br/>
-<br/>
-
-
-
-</iframe> 
 
 <br/>
 <br/>
